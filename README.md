@@ -21,7 +21,7 @@ mvn install
 mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4
 ```
 
-Nahida 仅支持 `Java 17` 及以上的版本，所以你可能需要修改 `pom.xml` 中编辑器版本。例如：
+Nahida 仅支持 `Java 17` 及以上的版本，所以你可能需要修改 `pom.xml` 中编译器版本。例如：
 
 ```xml
 <maven.compiler.source>17</maven.compiler.source>
