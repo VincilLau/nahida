@@ -12,7 +12,7 @@ import nahida.middleware.ServerHeader;
 import nahida.util.Mounter;
 
 public class Nahida {
-  public static final String VERSION = "0.1.0";
+  public static final String VERSION = "0.1.1";
 
   public String defaultMimeType = "text/plain";
   public Charset defaultCharset = Charset.defaultCharset();

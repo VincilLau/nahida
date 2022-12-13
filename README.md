@@ -9,7 +9,7 @@
 ```bash
 git clone https://github.com/VincilLau/nahida.git
 cd nahida
-git checkout v0.1.0
+git checkout v0.1.1
 mvn install
 ```
 
@@ -34,7 +34,7 @@ Nahida 仅支持 `Java 17` 及以上的版本，所以你可能需要修改 `pom
 <dependency>
   <groupId>nahida</groupId>
   <artifactId>nahida</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
 </dependency>
 ```
 
