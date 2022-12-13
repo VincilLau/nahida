@@ -391,7 +391,7 @@ public void send(Status status, String text, String contentType);
 public void send(Status status, String text);
 ```
 
-## 设置 MIME 类型和默认字符集
+### 设置 MIME 类型和默认字符集
 
 Nahida 对象有两个 public 字段 `defaultMimeType`，`defaultCharset` ，可以指定默认的 MIME 类型和字符集。
 
