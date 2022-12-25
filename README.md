@@ -249,7 +249,7 @@ public class App {
 
 ## 路径参数
 
-路由中的路径支持路径参数，语法是 `<type:name>`。目前参数的类型支持 `str`, `int`, `uint`，`float` 和 `uuid`。如果省略类型，则假设类型为 `str`。`name` 必须是一个合法的 Java 标识符。如果匹配成功，你可以通过 `ctx.param(name)` 访问路径参。`ctx.param(name)` 的返回类型为 `Object`，你需要使用强制类型转换将 Object 转换为对应的类型。注意，int 型和 uint 路径参数对应的 Java 类型是 `Long`，可以匹配超过 `2^32 -1` 的整数。uint 型路径参数只能匹配 `0` 和 `正整数`，不能匹配 `负数`。float 型路径参数对应的 Java 类型是 `Double`。
+路由中的路径支持路径参数，语法是 `<type:name>`。目前参数的类型支持 `str`, `int`, `uint`，`float` 和 `uuid`。如果省略类型，则假设类型为 `str`。`name` 必须是一个合法的 Java 标识符。如果匹配成功，你可以通过 `ctx.param(name)` 访问路径参数。`ctx.param(name)` 的返回类型为 `Object`，你需要使用强制类型转换将 Object 转换为对应的类型。注意，int 型和 uint 路径参数对应的 Java 类型是 `Long`，可以匹配超过 `2^32 -1` 的整数。uint 型路径参数只能匹配 `0` 和 `正整数`，不能匹配 `负数`。float 型路径参数对应的 Java 类型是 `Double`。
 
 ```java
 package hello;
